@@ -1897,3 +1897,17 @@ h1, h2, h3, h4, h5,
       color: #ff7979;
       text-align: left;
   }
+  .btn-circle {
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+   text-align: center;
+   padding: 0;
+   border-radius: 50%;
+ }
+ .btn-circle-lg {
+   width: 55px;
+   height: 55px;
+   line-height: 55px;
+   font-size: 1.1rem;
+ }
