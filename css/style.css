@@ -1,4 +1,7 @@
 /* Base */
+html{
+  scroll-behavior: smooth;
+}
 body {
   line-height: 1.7;
   color: gray;
@@ -1386,7 +1389,7 @@ h1, h2, h3, h4, h5,
   .testimonial figure img {
     max-width: 350px;
     margin: 0 auto;
-    border-radius: %; }
+    border-radius: 0%; }
 
 .breadcrumb-custom {
   font-size: 1rem !important; }
@@ -1910,4 +1913,13 @@ h1, h2, h3, h4, h5,
    height: 55px;
    line-height: 55px;
    font-size: 1.1rem;
+ }
+
+
+ .footerheader{
+  font-size: 30px;
+ }
+ .footermargin{
+   margin-top: 10px;
+   margin-bottom: 10px;
  }
