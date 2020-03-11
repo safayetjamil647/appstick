@@ -1,0 +1,80 @@
+
+.blog-image{
+  height: 100%;
+    width: 100%;
+}
+
+.index-card{
+  padding: 70px 0px 20px 0px;
+  color: black;
+}
+
+.bg-grey{
+  background-color:grey;
+}
+a{
+  color:rgb(255, 255, 255)!important;
+}
+/* footer-design */
+.fa-arrow-right{
+  font-size: 40px;
+}
+.footer-bg{
+ background-color: #303030
+}
+.footer-text{
+  color: white;
+}
+.footer-text2{
+  color: #fbbb5a;
+}
+
+/* hover-effect */
+
+.under {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+  display: inline-block;
+  padding: 15px 00px;
+  position: relative;
+}
+.under:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fbbb5a;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.under:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+:root {
+  --mainColor: #ff9800;
+}
+
+h4 {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+h4:hover {
+  background-size: 4px 50px;
+}
+

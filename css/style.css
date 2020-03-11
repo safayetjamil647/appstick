@@ -27,8 +27,8 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
-.bg-light {
-  background: #f6f6f6 !important; }
+/* .bg-light {
+  background: #f6f6f6 !important; } */
 
 .border-2 {
   border-width: 2px; }
@@ -79,8 +79,8 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
   .btn.btn-primary {
     border-width: 2px;
-    background: #ff7979;
-    border-color: #dff9fb;
+    background: #fbbb5a;
+    border-color: #ffffff;
     color: #fff;
     -webkit-box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4);
     box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4); }
@@ -601,7 +601,7 @@ h1, h2, h3, h4, h5,
       .site-blocks-cover h1 {
         font-size: 2rem; } }
   .site-blocks-cover p {
-    color: black;
+    color: #ffffff;
     font-size: 1rem;
     font-weight: 300; }
   .site-blocks-cover .intro-text {
