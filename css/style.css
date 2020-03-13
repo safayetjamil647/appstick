@@ -4,7 +4,7 @@ html{
 }
 body {
   line-height: 1.7;
-  color: gray;
+  color: black;
   font-weight: 300;
   font-size: 1rem; }
 
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
   .btn.btn-primary {
     border-width: 2px;
-    background: #fbbb5a;
+    background: #ff9800;
     border-color: #ffffff;
     color: #fff;
     -webkit-box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4);
@@ -1237,7 +1237,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     border-radius: 50%;
     display: inline-block;
-    background-color: #00d2b5;
+    background-color: #f89d13;
     -webkit-box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4);
     box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4); }
     .unit-4 .unit-4-icon .icon-wrap span {

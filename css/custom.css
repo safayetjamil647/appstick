@@ -13,7 +13,7 @@
   background-color:grey;
 }
 a{
-  color:rgb(255, 255, 255)!important;
+  color:rgb(255, 255, 255);
 }
 /* footer-design */
 .fa-arrow-right{
@@ -60,7 +60,7 @@ a{
   --mainColor: #ff9800;
 }
 
-h4 {
+.fillup {
   background:
      linear-gradient(
        to bottom, var(--mainColor) 0%,
@@ -68,13 +68,24 @@ h4 {
      );
     background-position: 0 100%;
     background-repeat: repeat-x;
-    background-size: 4px 4px;
-  color: #000;
+    background-size: 2px 2px;
   text-decoration: none;
-  transition: background-size .2s;
+  transition: background-size 1s;
 }
 
-h4:hover {
+.fillup:hover {
   background-size: 4px 50px;
 }
 
+.blackandwhite {
+  filter: gray;
+  filter: grayscale(100%);
+}
+.blackandwhite:hover {
+  filter: gray;
+  filter: grayscale(00%);
+}
+.dropdown:hover>.dropdown-menu{
+
+    display: block;
+}

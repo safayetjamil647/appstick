@@ -2098,11 +2098,11 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #212529;
-  background-color: #f89d13;
-  border-color: #f89d13; }
+  background-color: #ff9800;
+  border-color: #ff9800; }
   .btn-warning:hover {
     color: #fff;
-    background-color: #de8807;
+    background-color:#fff;
     border-color: #d28106; }
   .btn-warning:focus, .btn-warning.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(248, 157, 19, 0.5);
