@@ -89,3 +89,40 @@ a{
 
     display: block;
 }
+
+
+.fillup_footer {
+  background: linear-gradient( to bottom, var(--mainColor) 0%, var(--mainColor) 100% );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  text-decoration: none;
+  transition: background-size 1s;
+  width: 147px;
+  margin: 0 auto;
+}
+.fillup_footer:hover {
+  background-size: 4px 50px;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff9800;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9800;
+}
