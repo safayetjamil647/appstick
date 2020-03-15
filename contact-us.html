@@ -67,7 +67,7 @@
                 <li><a href="products.html" class="nav-link">Products</a></li>
                 <li><a href="services.html" class="nav-link">Services</a></li>
                 <li><a href="about-us.html" class="nav-link">About Us</a></li>
-                <li><a href="#blog-section" class="nav-link">Blog</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
                 <li><a href="contact-us.html" class="nav-link">Contact</a></li>
               </ul>
             </nav>
@@ -82,26 +82,27 @@
     </header>
 
 
-    <div class="site-blocks-cover" style="background:-webkit-linear-gradient(90deg, rgba(2,0,36,1) 30%, rgba(255,0,219,1) 100%); margin-bottom:-3em;">
+    <div class="site-section bg-light" id="about-section">
       <div class="container">
-        <div class="row align-items-center justify-content-center">
-
-          <div class="col-md-12" style="position: relative;" data-aos="fade-up">
-
-            <img src="images/landing_1.png" alt="Image" class="img-fluid img-absolute">
-
-            <div class="row mb-4">
-              <div class="col-lg-4 mr-auto">
-                <h1>Grow Your Business Faster</h1>
-                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
-                <div>
-                  <a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a>
-                </div>
-              </div>
-
-
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 id="typed-strings" class="section-title mb-3 element">Web Development Service</h2>
+            <span id="typed"></span>
+            <div id="typed-strings">
+              <p>Typed.js is a <strong>JavaScript</strong> library.</p>
+              <p>It <em>types</em> out sentences.</p>
             </div>
-
+            <span class="element"></span>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <img src="images/about_1.jpg" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4">Create interactive prototypes</h2>
+            <p class="mb-4">Eos cumque optio dolores excepturi rerum temporibus magni recusandae eveniet, totam omnis consectetur maxime quibusdam expedita dolorem dolor nobis dicta labore quaerat esse magnam unde, aperiam delectus! At maiores, itaque.</p>
+            <p><a href="#" class="btn btn-primary">Learn More</a></p>
           </div>
         </div>
       </div>
@@ -251,9 +252,24 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  
 
 
   <script src="js/main.js"></script>
+  <script>
+  var typed = new Typed('.element', {
+  strings: ['This is a JavaScript library', 'This is an ES6 module', 'This is an ES6',, 'This is an'],
+  smartBackspace: true,
+  typeSpeed: 30,
+  startDelay: 1200,
+  backSpeed: 20,
+  backDelay: 500,
+  loop: true,
+  loopCount: Infinity,
+  shuffle: true,
 
+});
+  </script>
   </body>
 </html>
