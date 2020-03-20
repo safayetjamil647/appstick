@@ -129,3 +129,8 @@ a{
 #typed{
   display:inline;
 }
+
+.header{
+  margin-top: 155px;
+  font-size: 35px;
+}
