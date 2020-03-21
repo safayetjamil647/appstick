@@ -134,3 +134,44 @@ a{
   margin-top: 155px;
   font-size: 35px;
 }
+
+
+#new2_image{
+  /* width: 300px; */
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+
+#new2_image img{
+  -webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(15deg) scale(1.4);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#new_image2 img:hover{
+
+  -webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+  animation: flash 1.5s;
+  }
+  @-webkit-keyframes flash {
+  	0% {
+  		opacity: .4;
+  	}
+  	100% {
+  		opacity: 1;
+  	}
+  }
+  @keyframes flash {
+  	0% {
+  		opacity: .4;
+  	}
+  	100% {
+  		opacity: 1;
+  	}
+  }
