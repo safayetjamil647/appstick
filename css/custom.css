@@ -1,31 +1,30 @@
-
-.blog-image{
+.blog-image {
   height: 100%;
-    width: 100%;
+  width: 100%;
 }
 
-.index-card{
+.index-card {
   padding: 70px 0px 20px 0px;
   color: black;
 }
 
-.bg-grey{
-  background-color:grey;
+.bg-grey {
+  background-color: grey;
 }
-a{
-  color:rgb(255, 255, 255);
+a {
+  color: rgb(255, 255, 255);
 }
 /* footer-design */
-.fa-arrow-right{
+.fa-arrow-right {
   font-size: 40px;
 }
-.footer-bg{
- background-color: #303030
+.footer-bg {
+  background-color: #303030;
 }
-.footer-text{
+.footer-text {
   color: white;
 }
-.footer-text2{
+.footer-text2 {
   color: #fbbb5a;
 }
 
@@ -35,12 +34,12 @@ a{
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-  
+
   display: inline-block;
   padding: 15px 00px;
   position: relative;
 }
-.under:after {    
+.under:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -52,23 +51,23 @@ a{
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.under:hover:after { 
-  width: 100%; 
-  left: 0; 
+.under:hover:after {
+  width: 100%;
+  left: 0;
 }
 :root {
   --mainColor: #ff9800;
 }
 
 .fillup {
-  background:
-     linear-gradient(
-       to bottom, var(--mainColor) 0%,
-       var(--mainColor) 100%
-     );
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 2px 2px;
+  background: linear-gradient(
+    to bottom,
+    var(--mainColor) 0%,
+    var(--mainColor) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
   text-decoration: none;
   transition: background-size 1s;
 }
@@ -85,14 +84,16 @@ a{
   filter: gray;
   filter: grayscale(00%);
 }
-.dropdown:hover>.dropdown-menu{
-
-    display: block;
+.dropdown:hover > .dropdown-menu {
+  display: block;
 }
 
-
 .fillup_footer {
-  background: linear-gradient( to bottom, var(--mainColor) 0%, var(--mainColor) 100% );
+  background: linear-gradient(
+    to bottom,
+    var(--mainColor) 0%,
+    var(--mainColor) 100%
+  );
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 2px 2px;
@@ -104,8 +105,6 @@ a{
 .fillup_footer:hover {
   background-size: 4px 50px;
 }
-
-
 
 /* width */
 ::-webkit-scrollbar {
@@ -126,17 +125,16 @@ a{
 ::-webkit-scrollbar-thumb:hover {
   background: #ff9800;
 }
-#typed{
-  display:inline;
+#typed {
+  display: inline;
 }
 
-.header{
+.header {
   margin-top: 155px;
   font-size: 35px;
 }
 
-
-#new2_image{
+#new2_image {
   /* width: 300px; */
   height: 200px;
   margin: 0;
@@ -145,33 +143,65 @@ a{
   overflow: hidden;
 }
 
-
-#new2_image img{
+#new2_image img {
   -webkit-transform: rotate(15deg) scale(1.4);
-	transform: rotate(15deg) scale(1.4);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  transform: rotate(15deg) scale(1.4);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
-#new_image2 img:hover{
-
+#new_image2 img:hover {
   -webkit-transform: rotate(0) scale(1);
-	transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
   animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.4;
   }
-  @-webkit-keyframes flash {
-  	0% {
-  		opacity: .4;
-  	}
-  	100% {
-  		opacity: 1;
-  	}
+  100% {
+    opacity: 1;
   }
-  @keyframes flash {
-  	0% {
-  		opacity: .4;
-  	}
-  	100% {
-  		opacity: 1;
-  	}
+}
+@keyframes flash {
+  0% {
+    opacity: 0.4;
   }
+  100% {
+    opacity: 1;
+  }
+}
+
+p {
+  border-top: 2px dashed;
+  border-color: blue !important;
+  margin: 0;
+  padding: 30px;
+}
+
+p:nth-child(even) {
+  border-left: 2px dashed;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: 30px;
+  padding-right: 0;
+}
+
+p:nth-child(odd) {
+  border-right: 2px dashed;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 30px;
+  padding-left: 0;
+}
+
+p:first-child {
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+p:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
